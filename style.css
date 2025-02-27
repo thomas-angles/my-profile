@@ -1,0 +1,115 @@
+/* ---- STYLE GÉNÉRAL ---- */
+body {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b); /* Dégradé violet -> rose -> orange */
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ---- CONTENEUR PRINCIPAL ---- */
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+/* ---- CARTES ---- */
+.card-white {
+    background: rgba(255, 255, 255, 0.15); /* Transparence pour laisser le fond apparaître */
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Effet flou élégant */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-white:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+/* ---- TITRES ---- */
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ffddc1;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ---- TEXTES ---- */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* ---- BOUTONS ---- */
+.btn-blue {
+    background: #ffddc1;
+    color: #3a1c71;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #fff;
+}
+
+.btn-blue:hover {
+    background: #fff;
+    color: #3a1c71;
+}
+
+/* ---- LIENS ---- */
+a {
+    text-decoration: none;
+    color: #ffddc1;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* ---- LISTE DES RÉSEAUX SOCIAUX ---- */
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 36px;
+    color: #ffddc1;
+    transition: 0.3s;
+}
+
+.list-inline i:hover {
+    color: #fff;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #ffddc1;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+    backdrop-filter: blur(5px);
+}
